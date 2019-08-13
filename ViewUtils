@@ -1,3 +1,4 @@
+// https://antonioleiva.com/functional-operations-viewgroup-kotlin/
 public val ViewGroup.viewsRecursive: List<View>
     get() = views.flatMap { view ->
         when (view) {
